@@ -8,6 +8,21 @@
     align-items: center;
 }
 
+.blog-item {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+}
+
+.blog-img {
+    width: 300px;
+    height: auto;
+}
+
+.blog-text {
+    flex: 1;
+}
+
 p {
     width: 60%;
 }
